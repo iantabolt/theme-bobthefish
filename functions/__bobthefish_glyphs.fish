@@ -1,17 +1,17 @@
 function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
   # Powerline glyphs
   set -x branch_glyph            \uE0A0
-  set -x right_black_arrow_glyph \uE0B0
-  set -x right_arrow_glyph       \uE0B1
-  set -x left_black_arrow_glyph  \uE0B2
-  set -x left_arrow_glyph        \uE0B3
+  set -x right_black_arrow_glyph \uE0B4
+  set -x right_arrow_glyph       \uE0B5
+  set -x left_black_arrow_glyph  \uE0B6
+  set -x left_arrow_glyph        \uE0B7
 
   # Additional glyphs
   set -x detached_glyph          \u27A6
   set -x tag_glyph               \u2302
-  set -x nonzero_exit_glyph      '! '
-  set -x superuser_glyph         '$ '
-  set -x bg_job_glyph            '% '
+  set -x nonzero_exit_glyph      \uf12a' '
+  set -x superuser_glyph         \uf123' '
+  set -x bg_job_glyph            \uf110' '
   set -x hg_glyph                \u263F
 
   # Python glyphs
@@ -38,9 +38,9 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
   set -x vagrant_unknown_glyph   '!'    # strange cases
 
   # Git glyphs
-  set -x git_dirty_glyph      '*'
-  set -x git_staged_glyph     '~'
-  set -x git_stashed_glyph    '$'
+  set -x git_dirty_glyph      \uf040
+  set -x git_staged_glyph     \uf490
+  set -x git_stashed_glyph    \uf019
   set -x git_untracked_glyph  '…'
   set -x git_ahead_glyph      \u2191 # '↑'
   set -x git_behind_glyph     \u2193 # '↓'

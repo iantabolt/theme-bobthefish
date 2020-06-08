@@ -377,7 +377,7 @@ function __bobthefish_path_segment -S -a segment_dir -d 'Display a shortened for
 
     echo -n $parent
     set_color -b $segment_basename_color
-    echo -ns $directory ' '
+    echo -ns (string replace -r 'foursquare' \uf180 $directory) ' '
 end
 
 function __bobthefish_finish_segments -S -d 'Close open prompt segments'
